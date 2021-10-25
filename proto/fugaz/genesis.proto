@@ -1,0 +1,11 @@
+syntax = "proto3";
+package fugaznetwork.fugaz.fugaz;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/fugaz-network/fugaz/x/fugaz/types";
+
+// GenesisState defines the fugaz module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
